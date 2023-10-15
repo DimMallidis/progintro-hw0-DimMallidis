@@ -1,1 +1,1 @@
-# -progintro-hw0-DimMallidis
+# progintro-hw0-DimMallidis

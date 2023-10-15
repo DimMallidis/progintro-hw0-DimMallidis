@@ -4,6 +4,8 @@
 
 bandit0: Δίνεται από το overthewire.
  
-bandit1: Για να διαβάσουμε το αρχείο readme χρησιμοποιούμε το commmand: "cat readme" μέσα στο οποίο βρίσκεται ο κωδικός.
+bandit1: Για να διαβάσουμε το αρχείο readme χρησιμοποιούμε το commmand: "cat readme". Μέσα στο αρχείο "readme" βρίσκεται ο κωδικός.
  
 bandit2: Επειδή το αρχείο "-" ξεκινά με χαρακτήρα "-" για να το διαβάσουμε πρέπει να χρησιμοποιήσουμε το command: "cat < -". Αν χρησιμοποιηθεί το command "cat -" τότε αντί να διαβάσουμε το αρχείο ενεργοποιείται standard input. Μέσα στο αρχείο "-" βρίσκεται ο κωδικός. 
+
+bandit3: Για να διαβαστεί το αρχείο "spaces in this filename" πρέπει να χρησιμοποιηθεί το command: "cat 'spaces in this filename'" διότι το command: "cat spaces in this filename" οδηγεί το σύστημα στο να αναζητήσει 4 διαφορετικά και μη υπαρκτά αρχεία ("spaces", "in", "this", "filename"). Μέσα στο αρχείο "spaces in this filename" βρίσκεται ο κωδικός.
